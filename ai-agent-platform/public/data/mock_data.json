@@ -1,0 +1,160 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "username": "john_doe",
+      "email": "john@example.com",
+      "createdAt": "2024-01-15T10:30:00Z",
+      "preferences": {
+        "theme": "light",
+        "notifications": true,
+        "defaultAgent": "ai-chat"
+      },
+      "subscription": "premium"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "userId": "user-1",
+      "agentId": "deep-research",
+      "title": "Climate Change Impact Analysis",
+      "description": "Research the effects of climate change on global agriculture",
+      "status": "completed",
+      "input": {
+        "query": "climate change impact on agriculture",
+        "timeframe": "last 5 years",
+        "regions": ["North America", "Europe", "Asia"]
+      },
+      "output": {
+        "summary": "Comprehensive analysis of climate change effects on agricultural productivity across major regions.",
+        "keyFindings": [
+          "Temperature increases affecting crop yields",
+          "Changing precipitation patterns",
+          "Increased frequency of extreme weather events"
+        ],
+        "recommendations": [
+          "Invest in drought-resistant crops",
+          "Implement precision agriculture",
+          "Develop climate adaptation strategies"
+        ]
+      },
+      "createdAt": "2024-06-18T09:00:00Z",
+      "completedAt": "2024-06-18T10:30:00Z",
+      "files": ["file-1", "file-2"]
+    },
+    {
+      "id": "task-2",
+      "userId": "user-1",
+      "agentId": "ai-slides",
+      "title": "AI Technology Presentation",
+      "description": "Create slides about AI trends in 2024",
+      "status": "running",
+      "input": {
+        "topic": "AI Technology Trends 2024",
+        "slideCount": 15,
+        "style": "professional"
+      },
+      "output": null,
+      "createdAt": "2024-06-19T20:00:00Z",
+      "completedAt": null,
+      "files": []
+    },
+    {
+      "id": "task-3",
+      "userId": "user-1",
+      "agentId": "ai-sheets",
+      "title": "Competitor Analysis Dashboard",
+      "description": "Analyze top 10 competitors in the AI space",
+      "status": "pending",
+      "input": {
+        "industry": "AI Technology",
+        "competitorCount": 10,
+        "metrics": ["revenue", "market_share", "employee_count", "funding"]
+      },
+      "output": null,
+      "createdAt": "2024-06-19T21:15:00Z",
+      "completedAt": null,
+      "files": []
+    }
+  ],
+  "files": [
+    {
+      "id": "file-1",
+      "userId": "user-1",
+      "taskId": "task-1",
+      "name": "Climate_Research_Report.pdf",
+      "type": "application/pdf",
+      "size": 2458742,
+      "url": "/uploads/climate-research-report.pdf",
+      "createdAt": "2024-06-18T10:30:00Z",
+      "tags": ["research", "climate", "agriculture"]
+    },
+    {
+      "id": "file-2",
+      "userId": "user-1",
+      "taskId": "task-1",
+      "name": "Data_Analysis_Charts.xlsx",
+      "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 1234567,
+      "url": "/uploads/data-analysis-charts.xlsx",
+      "createdAt": "2024-06-18T10:30:00Z",
+      "tags": ["data", "charts", "analysis"]
+    },
+    {
+      "id": "file-3",
+      "userId": "user-1",
+      "taskId": null,
+      "name": "Project_Resources.zip",
+      "type": "application/zip",
+      "size": 5678901,
+      "url": "/uploads/project-resources.zip",
+      "createdAt": "2024-06-15T14:20:00Z",
+      "tags": ["resources", "project"]
+    }
+  ],
+  "userStats": {
+    "user-1": {
+      "totalTasks": 15,
+      "completedTasks": 12,
+      "runningTasks": 2,
+      "pendingTasks": 1,
+      "totalFiles": 28,
+      "storageUsed": "156.7 MB",
+      "favoriteAgent": "deep-research",
+      "lastActive": "2024-06-19T21:31:11Z",
+      "monthlyUsage": {
+        "tasks": 8,
+        "agents": ["deep-research", "ai-slides", "ai-sheets", "ai-chat"],
+        "storageAdded": "45.2 MB"
+      }
+    }
+  },
+  "superAgentWorkflows": [
+    {
+      "id": "workflow-1",
+      "userId": "user-1",
+      "name": "Complete Market Analysis",
+      "description": "Multi-agent workflow for comprehensive market research",
+      "agents": [
+        {
+          "agentId": "deep-research",
+          "step": 1,
+          "task": "Research market trends and competitors"
+        },
+        {
+          "agentId": "ai-sheets",
+          "step": 2,
+          "task": "Organize data into analytical spreadsheet"
+        },
+        {
+          "agentId": "ai-slides",
+          "step": 3,
+          "task": "Create presentation from analysis"
+        }
+      ],
+      "status": "template",
+      "estimatedDuration": "45 minutes"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "advancedAgents": [
+    {
+      "id": "super-agent",
+      "name": "Genspark Super Agent",
+      "type": "advanced",
+      "category": "coordination",
+      "description": "Work autonomously on your complex tasks with multi-agent collaboration",
+      "status": "new",
+      "icon": "🚀",
+      "capabilities": [
+        "Complex task handling",
+        "Multi-agent coordination",
+        "Travel planning",
+        "Automated calling",
+        "Task delegation"
+      ],
+      "popularTasks": [
+        "Plan Travel to San Diego",
+        "AI Call for Me to Make Reservation",
+        "AI Call for Me to Make Restaurant Reservation",
+        "Coordinate multiple research tasks",
+        "Plan comprehensive business strategy"
+      ],
+      "pricing": "premium"
+    },
+    {
+      "id": "ai-slides",
+      "name": "AI Slides",
+      "type": "advanced",
+      "category": "presentation",
+      "description": "Generate professional presentations and slides automatically",
+      "status": "new",
+      "icon": "📊",
+      "capabilities": [
+        "Slide generation",
+        "Content structuring",
+        "Visual design",
+        "Template application",
+        "Export to multiple formats"
+      ],
+      "popularTasks": [
+        "Understanding Bauhaus Design: Principles and Real-World Applications",
+        "Popular Music Trends 2025",
+        "Create business pitch deck",
+        "Educational presentation on AI",
+        "Company quarterly review slides"
+      ],
+      "pricing": "premium"
+    },
+    {
+      "id": "ai-sheets",
+      "name": "AI Sheets",
+      "type": "advanced",
+      "category": "data",
+      "description": "Auto-find, analyze, and visualize data in spreadsheet format",
+      "status": "new",
+      "icon": "📈",
+      "capabilities": [
+        "Auto-find companies, people, papers, products",
+        "Data transformation and insights",
+        "Visualization creation",
+        "Auto-search and analysis",
+        "Export to Excel/CSV"
+      ],
+      "popularTasks": [
+        "List 20 key concepts from AP assignment chapter and assess understanding",
+        "Find 20 Genspark YouTube videos and analyze metrics and comments",
+        "Create competitor analysis spreadsheet",
+        "Track project milestones and progress",
+        "Generate sales performance dashboard"
+      ],
+      "pricing": "premium"
+    },
+    {
+      "id": "download-for-me",
+      "name": "Download For Me",
+      "type": "advanced",
+      "category": "utility",
+      "description": "Download content from specified links and sources automatically",
+      "status": "new",
+      "icon": "⬇️",
+      "capabilities": [
+        "Web content downloading",
+        "Video/audio extraction",
+        "Document retrieval",
+        "Batch downloading",
+        "Format conversion"
+      ],
+      "popularTasks": [
+        "Download papers mentioned in a LinkedIn link",
+        "Download videos from Genspark's Korean Tiktok",
+        "Extract images from web gallery",
+        "Download research papers from academic sites",
+        "Batch download social media content"
+      ],
+      "pricing": "premium"
+    },
+    {
+      "id": "deep-research",
+      "name": "Deep Research",
+      "type": "advanced",
+      "category": "research",
+      "description": "Conduct in-depth research on complex topics with comprehensive analysis",
+      "status": "task",
+      "icon": "🔍",
+      "capabilities": [
+        "Multi-source research",
+        "Data synthesis",
+        "Fact verification",
+        "Trend analysis",
+        "Report generation"
+      ],
+      "popularTasks": [
+        "Complex Social Structures of Orcas in the Pacific Northwest",
+        "The Evolution of Serve Techniques in Professional Tennis Over the Past 20 Years",
+        "Climate change impact on agriculture",
+        "Blockchain technology adoption trends",
+        "Mental health research in remote work"
+      ],
+      "pricing": "premium"
+    },
+    {
+      "id": "call-for-me",
+      "name": "Call For Me",
+      "type": "advanced",
+      "category": "communication",
+      "description": "Make phone calls to perform tasks like booking and inquiries",
+      "status": "task",
+      "icon": "📞",
+      "capabilities": [
+        "Automated calling",
+        "Reservation booking",
+        "Information inquiry",
+        "Follow-up calls",
+        "Call transcription"
+      ],
+      "popularTasks": [
+        "Book a table at Lechon for next Wednesday's birthday celebration",
+        "Check if BusterPro Tennis has Yonex 2025 EZONE tennis racket in stock",
+        "Schedule doctor appointment",
+        "Inquire about hotel availability",
+        "Make dental cleaning appointment"
+      ],
+      "pricing": "premium"
+    },
+    {
+      "id": "fact-check",
+      "name": "Fact Check",
+      "type": "advanced",
+      "category": "verification",
+      "description": "Verify truthfulness of claims and statements with reliable sources",
+      "status": "task",
+      "icon": "✅",
+      "capabilities": [
+        "Claim verification",
+        "Source validation",
+        "Evidence gathering",
+        "Bias detection",
+        "Reliability scoring"
+      ],
+      "popularTasks": [
+        "Coca-Cola cut ties with Taylor Swift over her political endorsement",
+        "The new '5-Day Fast Diet' trending on social media guarantees 10kg weight loss in a month without exercise",
+        "Verify news article claims",
+        "Check product review authenticity",
+        "Validate scientific study results"
+      ],
+      "pricing": "premium"
+    }
+  ],
+  "basicAgents": [
+    {
+      "id": "ai-chat",
+      "name": "AI Chat",
+      "type": "basic",
+      "category": "conversation",
+      "description": "General conversational AI with mixture-of-agents capability",
+      "status": "mixture-of-agents",
+      "icon": "💬",
+      "capabilities": [
+        "Natural conversation",
+        "Question answering",
+        "Creative writing",
+        "Problem solving",
+        "Multi-turn dialogue"
+      ],
+      "popularTasks": [
+        "Help me write an email",
+        "Explain quantum physics simply",
+        "Creative story writing",
+        "Career advice discussion",
+        "Plan my daily schedule"
+      ],
+      "pricing": "free"
+    },
+    {
+      "id": "image-studio",
+      "name": "Image Studio",
+      "type": "basic",
+      "category": "visual",
+      "description": "Generate and process images with AI creativity",
+      "status": "mixture-of-agents",
+      "icon": "🎨",
+      "capabilities": [
+        "Image generation",
+        "Style transfer",
+        "Image editing",
+        "Format conversion",
+        "Batch processing"
+      ],
+      "popularTasks": [
+        "Create logo design",
+        "Generate artwork for presentation",
+        "Edit product photos",
+        "Create social media graphics",
+        "Design website banners"
+      ],
+      "pricing": "free"
+    },
+    {
+      "id": "generate-video",
+      "name": "Generate Video",
+      "type": "basic",
+      "category": "video",
+      "description": "Create and edit video content with AI assistance",
+      "status": "mixture-of-agents",
+      "icon": "🎬",
+      "capabilities": [
+        "Video generation",
+        "Scene creation",
+        "Animation",
+        "Voiceover addition",
+        "Format optimization"
+      ],
+      "popularTasks": [
+        "Create explainer video",
+        "Generate product demo",
+        "Make social media video",
+        "Create educational content",
+        "Build marketing promo"
+      ],
+      "pricing": "free"
+    },
+    {
+      "id": "translation",
+      "name": "Translation",
+      "type": "basic",
+      "category": "language",
+      "description": "Translate text and content across multiple languages",
+      "status": "mixture-of-agents",
+      "icon": "🌐",
+      "capabilities": [
+        "Multi-language translation",
+        "Context preservation",
+        "Document translation",
+        "Real-time translation",
+        "Bulk translation"
+      ],
+      "popularTasks": [
+        "Translate business document",
+        "Convert website content",
+        "Translate social media posts",
+        "Localize app interface",
+        "Translate research papers"
+      ],
+      "pricing": "free"
+    }
+  ]
+}
